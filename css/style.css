@@ -1,0 +1,107 @@
+
+html,
+body {
+    background-color: #1e1e1e;
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #fff;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    /*color: #000;*/
+    margin: 0;
+    padding: 0;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /*background: #fff;*/
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.mybowser {
+    line-height: 5;
+    font-size: 375px;
+    padding-top: -200px;
+}
+
+.jt-bg {
+    width: 300px;
+    height: 500px;
+}
+
+.jt-back {
+  display: block;
+  text-indent: -9999px;
+  background: url(../font/window.svg) no-repeat;
+  background-size: contain;
+}
+
+.jt-default {
+    background-color: #1e1e1e;
+}
+
+.footer {
+    position: fixed;
+    display: block;
+    text-align: center;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 15px;
+    font-family: 'AppleGothic';
+	/*font-weight: bold;*/
+    z-index: 999;
+}
+
+.footerMain {
+    z-index: 999;
+    color: #bbb;
+}
+
+.footer > a {
+    color: #bbb; 
+}
+
+.footer > a:link{
+    text-decoration:none;
+}
+
+img {
+    border-radius: 50%;
+    padding: 20px 5px;
+}
+
+.imgBox {
+    position: absolute;
+    top: 55px;
+}
+
+.matterDate {
+    color: #bbb;
+    font-family: 'AppleGothic';
+}
+
+.matterDate > span {
+    line-height: 2;
+}
